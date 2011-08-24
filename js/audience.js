@@ -13,8 +13,8 @@
  * 
  */
 var load_js = function audience_load_js() {
-	var apiKey = 1543171;
-	var sessionId = '2e64995e8430731ecedd002cf38ddebc03bee515';
+	var apiKey = 3561082;
+	var sessionId = '1bbafc0d8ebd134834f41bcbe30bb89baf5db281';
 	var token;
 	var session;
 	var publisher;

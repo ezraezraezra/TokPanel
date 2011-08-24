@@ -20,7 +20,7 @@ require "../sdk/OpenTokSDK.php";
 	
 if($_GET['comm'] == 'tbAPI') {
 	$a = new OpenTokSDK(API_Config::API_KEY,API_Config::API_SECRET);
-	$the_token = $a->generate_token('2e64995e8430731ecedd002cf38ddebc03bee515', RoleConstants::MODERATOR);
+	$the_token = $a->generate_token('1bbafc0d8ebd134834f41bcbe30bb89baf5db281', RoleConstants::MODERATOR);
 	$arr = array("token"=>$the_token);
 }
 	
