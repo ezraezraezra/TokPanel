@@ -1,0 +1,50 @@
+<div id="main_container">
+		<div style="margin-top:15px; font-size: 36px;">Admin Panel</div>
+		<div id="stage_container">
+			<div>Live</div>
+			<div id="left_speaker_container" class="speaker_container">
+				<div id="left_speaker_0" class="left_speaker order_speaker"></div>
+				<div id="left_speaker_1" class="left_speaker order_speaker"></div>
+				<div id="left_speaker_2" class="left_speaker"></div>
+				Individual Dedicated Live Streams
+			</div>
+			<div id="right_speaker_container" class="speaker_container">
+				<div id="queue_0">
+				</div>
+				<input type="button" value="Kick & Fill Queue" class="kick_button kick_button_live" onClick="javascript:kick('queue_0')" />
+				<input type="button" value="Kick & Don't Fill Queue" class="kick_button kick_button_live" onClick="javascript:start_chat('queue_0')" />
+			</div>
+		</div>
+		<div id="queue_container">
+			<div class="text_text">On Queue</div>
+			<div class="queue_post">
+				<div class="queue_cam" id="queue_1"></div>
+				<input type="button" value="Kick" class="kick_button" onClick="javascript:kick('queue_1')" />
+			</div>
+			<div class="queue_post">
+				<div class="queue_cam" id="queue_2"></div>
+				<input type="button" value="Kick" class="kick_button" onClick="javascript:kick('queue_2')" />
+			</div>
+			<div class="queue_post">
+				<div class="queue_cam" id="queue_3"></div>
+				<input type="button" value="Kick" class="kick_button" onClick="javascript:kick('queue_3')" />
+			</div>
+			<div class="queue_post">
+				<div class="queue_cam" id="queue_4"></div>
+				<input type="button" value="Kick" class="kick_button" onClick="javascript:kick('queue_4')" />
+			</div>
+			<div class="queue_post">
+				<div class="queue_cam" id="queue_5"></div>
+				<input type="button" value="Kick" class="kick_button" onClick="javascript:kick('queue_5')" />
+			</div>
+		</div>
+		<div id="admin_container">
+			<div id="admin_left">
+				<input type="button" value="Populate Queue" id ="populateLink" onClick="javascript:populate()" />
+			</div>
+			<div id="admin_right">
+				Amount of People Watching:
+				<div id="watching_num"></div>
+			</div>
+		</div>
+	</div>

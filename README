@@ -1,0 +1,24 @@
+/**********************************************************************
+ * Developer:   Ezra Velazquez http://ezraezraezra.com
+ * Company:     TokBox         http://www.tokbox.com
+ * 
+ * Date:        August 2011
+ *
+ * Title:       TokPanel       http://tokpanel.opentok.com
+ * Description: Panel-style video chat with up to three dedicated
+ *              'artists' cameras and rotating audience camera.
+ *              Includes 'artist' view, 'audience view' and 'moderator' view. 
+ *              Based on the OpenTok API and my previous project, TokShow
+ *              http://github.com/ezraezraezra/TokShow
+ *
+ * Tech:        AJAX, CSS, CSS3, HTML, JavaScript, JSON, jQuery, 
+ *              MySQL, OpenTok API, PHP
+ * Last Update: August 23rd, 2011
+ ***********************************************************************/
+ 
+ NOTE: *** 3rd PARTY LIBRARIES HAVE BEEN OMITTED FROM THE PUBLIC REPO ***
+ 
+ Libraries Omitted:  OpenTok     http://www.tokbox.com
+                     jQuery      http://jquery.com
+                     
+ NOTE: *** PROJECT BASED ON MY PREVIOUS PROJECT, TOKSHOW ***
